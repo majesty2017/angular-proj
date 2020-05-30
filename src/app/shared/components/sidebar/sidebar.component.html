@@ -1,0 +1,32 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>John Doe</h2>
+            <h4>example@email.com</h4>
+        </div>
+        <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Profile Image">
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubHeader>Pages</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" rounterLink="/">Dashboard</a>
+    <a mat-list-item routerLinkActive="list-item-active" rounterLink="/posts">Posts</a>
+    <a mat-list-item routerLinkActive="list-item-active" rounterLink="/articles">Articles</a>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubHeader>Tools</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" rounterLink="/contacts">
+        <mat-icon>import_contacts</mat-icon>
+        Contacts
+    </a> 
+
+    <a mat-list-item routerLinkActive="list-item-active" rounterLink="/contacts">
+        <mat-icon>contact_phone</mat-icon>
+        Leads
+    </a>
+
+</mat-nav-list>
